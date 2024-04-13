@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "316923369990",
+    "firebase_url": "https://myfoodchoice-dc7bd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "myfoodchoice-dc7bd",
+    "storage_bucket": "myfoodchoice-dc7bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316923369990:android:00c53a028c3680edda4187",
+        "android_client_info": {
+          "package_name": "com.example.myfoodchoice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGO0NFaE8rgmVPWD7ufoiDpx8vNWj1g7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316923369990:android:aa679b8dc447a813da4187",
+        "android_client_info": {
+          "package_name": "com.example.mysmartfoodchoice_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGO0NFaE8rgmVPWD7ufoiDpx8vNWj1g7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
