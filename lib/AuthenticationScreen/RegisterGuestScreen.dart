@@ -1,4 +1,7 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
+import 'package:mysmartfoodchoice_flutter/Model/Account.dart';
 
 class RegisterGuestScreen extends StatefulWidget {
   const RegisterGuestScreen({super.key});
@@ -7,13 +10,23 @@ class RegisterGuestScreen extends StatefulWidget {
   _RegisterGuestScreenState createState() => _RegisterGuestScreenState();
 }
 
-class _RegisterGuestScreenState extends State<RegisterGuestScreen> {
+class _RegisterGuestScreenState extends State<RegisterGuestScreen>
+{
   final _formKey = GlobalKey<FormState>();
-  String email = '';
-  String password = '';
-  UserProfile userProfile = new UserProfile();
-  String firstName = '';
-  String lastName = '';
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+  final TextEditingController firstNameController = TextEditingController();
+  final TextEditingController lastNameController = TextEditingController();
+
+
+  Account account = Account
+    (
+    email: 'user@example.com',
+    password: 'password123',
+    accountType: 'User',
+    currentDateTrial: DateTime.now(),
+    endDateTrial: DateTime.now().add(const Duration(days: 30)),
+  );
 
   @override
   Widget build(BuildContext context) {

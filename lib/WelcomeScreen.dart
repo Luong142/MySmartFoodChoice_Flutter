@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mysmartfoodchoice_flutter/AuthenticationScreen/LoginScreen.dart';
 import 'package:mysmartfoodchoice_flutter/AuthenticationScreen/RegisterGuestScreen.dart';
 import 'package:mysmartfoodchoice_flutter/AuthenticationScreen/RegisterBusinessScreen.dart';
