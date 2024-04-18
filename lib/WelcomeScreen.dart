@@ -63,8 +63,7 @@ class _MyHomePageState extends State<MyHomePage>
   {
     Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) =>
-            RegisterGuestScreen())
+        MaterialPageRoute(builder: (context) => const RegisterGuestScreen())
     );
   }
 
@@ -72,10 +71,7 @@ class _MyHomePageState extends State<MyHomePage>
   {
     Navigator.push(
       context,
-      MaterialPageRoute
-        (builder:
-          (context) =>
-        RegisterGuestScreen()
+      MaterialPageRoute(builder: (context) => RegisterBusinessScreen()
       )
     );
   }
